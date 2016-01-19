@@ -1,0 +1,5 @@
+SQLike is a small query engine for JavaScript and ActionScript. Its functionality and syntax is similar to that of SQL and it can be used to query arrays of objects or arrays of arrays.
+
+Data structures in JavaScript and ActionScript are JSON:esque and sometimes deeply nested. When they are nested into XML-like structures a query language such as JSONPath (XPath for JSON) is a sound approach. But sometimes you might also use flat table-like structures. In those cases a more SQL-like approach can be more suited for searching, combining and updating data.
+
+The purpose of SQLike is to provide a tool for this approach that can be used on the clientside in all browsers (even when you do not have access to SQLite that is now getting to be part of some browser environments – AIR, Safari etc.). SQLike is much slower than SQLite, but a handy alternative for small amounts of data.
